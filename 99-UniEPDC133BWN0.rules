@@ -1,0 +1,1 @@
+KERNEL=="sg*" ATTRS{model}=="UniEPDC133BWN0" SYMLINK+="eink_usec_133BWN0"
