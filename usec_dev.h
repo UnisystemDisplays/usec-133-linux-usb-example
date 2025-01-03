@@ -45,15 +45,6 @@
  * background, such as a page of anti-aliased text, with reduced flash. The GL16
  * waveform has 16 unique gray levels.
  *
- * UPDATE_MODE_GLR16 - is used in conjunction with an image preprocessing
- * algorithm to update sparse content on a white background with reduced flash
- * and reduced image artifacts. The GLR16 mode supports 16 graytones.
- *
- * UPDATE_MODE_GLD16 - is used in conjunction with an image preprocessing
- * algorithm to update sparse content on a white background with reduced flash
- * and reduced image artifacts. It is recommended to be used only with the full
- * display update. The GLD16 mode supports 16 graytones.
- *
  * UPDATE_MODE_A2 - is a fast, non-flash update mode designed for fast paging
  * turning or simple black/white animation. This mode supports transitions from
  * and to black or white only. It cannot be used to update to any graytone other
@@ -69,8 +60,6 @@ enum
   UPDATE_MODE_DU,
   UPDATE_MODE_GC16,
   UPDATE_MODE_GL16,
-  UPDATE_MODE_GLR16,
-  UPDATE_MODE_GLD16,
   UPDATE_MODE_A2,
   UPDATE_MODE_DU4
 };

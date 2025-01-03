@@ -1323,7 +1323,7 @@ usec_img_update (usec_ctx  *ctx,
       return USEC_DEV_ERR;
     }
 
-  if (update_mode > 7)
+  if (update_mode > UPDATE_MODE_DU4)
     {
       usec_dev_log ("[usec] error: invalid update mode value\n\r");
       return USEC_DEV_ERR;
