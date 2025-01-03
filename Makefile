@@ -1,8 +1,8 @@
 CFLAGS  = -g -Wall -Wextra -Wno-unused-function -Wno-unused-parameter
 LDFLAGS = -lm
 
-eink-demo:
-	$(CC) -o eink-demo main.c usec_dev.c $(CFLAGS) $(LDFLAGS)
+usec-133-linux-usb-example:
+	$(CC) -o usec-133-linux-usb-example main.c usec_dev.c $(CFLAGS) $(LDFLAGS)
 
 clean:
-	rm -f eink-demo *.o *~
+	rm -f usec-133-linux-usb-example *.o *~
