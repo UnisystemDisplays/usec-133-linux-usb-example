@@ -89,7 +89,7 @@ git clone https://github.com/UnisystemDisplays/usec-133-linux-usb-example.git
 ```
 cd usec-133-linux-usb-example
 sudo cp 99-UniEPDC133BWN0.rules /etc/udev/rules.d/
-udevadm control --reload-rules && udevadm trigger
+sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
 [3] Build and run demo application:
